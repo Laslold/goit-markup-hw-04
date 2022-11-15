@@ -140,6 +140,7 @@ body {
 /* блок секция */
 /* Deskription */
 .deskription {
+  padding-top: 200px;
   background-color: var(--color-bg-footer);
   text-align: center;
   margin-bottom: 94px;
@@ -148,13 +149,24 @@ body {
 .deskription-title {
   margin: 0;
   color: var(--white-color);
-  background-color: var(--color-bg-footer);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+
+.overlay{
+  height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/hero2.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: 1px solid red;
 }
 /* button */
 .deskription-button {
@@ -164,7 +176,7 @@ body {
   box-shadow: var(--color-box-shadow);
   border-radius: 4px;
   padding: 10px 32px;
-
+border-color: transparent;
   color: var(--white-color);
   background-color: var(--accent-color);
   font-weight: 700;
