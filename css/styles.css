@@ -471,6 +471,7 @@ margin-right: 10px;
   gap: 9px;
   display: flex;
   margin-top: 9px;
+  margin-bottom: 60px;
   flex-direction: column;
 }
 
