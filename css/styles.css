@@ -166,15 +166,21 @@ margin-right: 10px;
   height: 16px;
   fill: currentColor;
 }
-
+.page-header {
+  border-bottom: 1px solid var(--color-border-header);
+}
 /* блок майн */
 /* блок секция */
 /* Deskription */
+.section {
+  margin-bottom: 94px;
+}
+.hero {
+  background-color: var(--color-bg-footer);
+}
 .deskription {
   padding-top: 200px;
-  background-color: var(--color-bg-footer);
   text-align: center;
-  margin-bottom: 94px;
 }
 
 .deskription-title {
@@ -242,9 +248,6 @@ margin-right: 10px;
 }
 
 /* feature */
-.section {
-  padding-bottom: 94px;
-}
 
 .feature-list p {
   margin: 0;
@@ -305,6 +308,9 @@ margin-right: 10px;
 .about {
   background-color: var(--color-about);
   padding-top: 94px;
+}
+.about > .container {
+  padding-bottom: 94px;
 }
 
 .about-list {
@@ -379,9 +385,9 @@ margin-right: 10px;
 }
 
 /* client */
-.client {
+/* .client {
   padding-top: 94px;
-}
+} */
 
 .client-list {
   display: flex;
