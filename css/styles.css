@@ -175,9 +175,14 @@ margin-right: 10px;
 .section {
   margin-bottom: 94px;
 }
-.hero {
+/* .hero {
   background-color: var(--color-bg-footer);
-}
+  padding-top: 200px;
+padding-bottom: 200px;
+    text-align: center;
+} */
+
+
 .deskription {
   padding-top: 200px;
   text-align: center;
@@ -306,11 +311,10 @@ margin-right: 10px;
 }
 /* about */
 .about {
+  margin: 0;
   background-color: var(--color-about);
   padding-top: 94px;
-}
-.about > .container {
-  padding-bottom: 94px;
+   padding-bottom: 94px;
 }
 
 .about-list {
@@ -389,6 +393,9 @@ margin-right: 10px;
   padding-top: 94px;
 } */
 
+.client{
+  margin-top: 94px;
+}
 .client-list {
   display: flex;
 }
